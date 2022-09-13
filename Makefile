@@ -13,3 +13,6 @@ publish: # publish-changes-no-pypi
 package-install: # install-package
 	python3 -m pip install --user dist/*.whl
 
+lint: # use-linter
+	poetry run flake8 brain_games
+
