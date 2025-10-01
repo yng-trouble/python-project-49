@@ -8,3 +8,5 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=yng-trouble_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=yng-trouble_python-project-49)
 ### Проверка на чётность:
 https://asciinema.org/a/RU20yG13Q6wnc3rBlGPP4TvQp
+### Калькулятор:
+https://asciinema.org/a/rrCLAcJmNC8kIcPjqPBSguEzV
