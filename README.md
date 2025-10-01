@@ -9,4 +9,6 @@
 ### Проверка на чётность:
 https://asciinema.org/a/RU20yG13Q6wnc3rBlGPP4TvQp
 ### Калькулятор:
-https://asciinema.org/a/rrCLAcJmNC8kIcPjqPBSguEzV
+https://asciinema.org/a/rrCLAcJmNC8kIcPjqPBSguEzV\
+### Наибольший общий делитель:
+https://asciinema.org/a/44jZUa9TwqOJqSyqLhI0N1oP1
