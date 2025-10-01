@@ -12,7 +12,7 @@ def b_gcd():
     numbers = [a, b]
     print('Find the greatest common divisor of given numbers.')
     while ngin.counter < 3:
-        gcd_question = print(f'Question: {a} {b}')
+        print(f'Question: {a} {b}')
         answer = input('Your answer: ')
         while b != 0:
             if max(numbers) % min(numbers) == 0:
