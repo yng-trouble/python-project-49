@@ -1,8 +1,11 @@
-import brain_games.b_even_logic as logic
+import brain_games.engine as engine
+
+from brain_games.games.b_even_logic import b_even
 
 
 def main():
-    logic.b_even()
+    engine.run(b_even)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
