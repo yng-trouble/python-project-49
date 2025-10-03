@@ -18,7 +18,8 @@ def b_gcd():
             gcd = a
         elif a == 0:
             gcd = b
-        while b != 0:
+        # might as well get some rest    
+        while b != 0 and a != 0:
             if max(numbers) % min(numbers) == 0:
                 gcd = min(numbers)
             rem = a % b
