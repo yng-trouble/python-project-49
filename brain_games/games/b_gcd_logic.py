@@ -32,7 +32,7 @@ def b_gcd():
             print(
                 f"{answer} is wrong answer ;(." 
                 f"Correct answer was {gcd}\n."
-                f"Let's try again, {ngin.name}"
+                f"Let's try again, {ngin.name}!"
                 )
             quit()
 

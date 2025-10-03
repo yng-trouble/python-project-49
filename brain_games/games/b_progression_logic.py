@@ -35,6 +35,6 @@ def b_progression():
             print(
                 f"{answer} is wrong answer ;(." 
                 f"Correct answer was {missing_number}.\n"
-                f"Let's try again, {ngin.name}"
+                f"Let's try again, {ngin.name}!"
                 )
             quit()

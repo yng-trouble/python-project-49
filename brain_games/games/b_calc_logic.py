@@ -27,6 +27,6 @@ def b_calc():
             print(
                 f"{answer} is wrong answer ;(." 
                 f"Correct answer was {exp}.\n"
-                f"Let's try again, {engine.name}"
+                f"Let's try again, {engine.name}!"
                 )
             quit()

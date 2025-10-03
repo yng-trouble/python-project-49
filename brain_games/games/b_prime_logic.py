@@ -27,6 +27,6 @@ def b_prime():
             print(
                 f"{answer} is wrong answer ;(." 
                 f"Correct answer was {real_answer}.\n"
-                f"Let's try again, {ngin.name}"
+                f"Let's try again, {ngin.name}!"
                 )
             quit()
