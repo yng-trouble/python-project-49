@@ -24,7 +24,7 @@ def b_progression():
         q_seq.pop(i)
         q_seq.insert(i, '..')
         q_seq = [str(i) for i in q_seq]
-        print(f'Question: {", ".join(q_seq)}')
+        print(f'Question: {" ".join(q_seq)}')
         answer = prompt.string('Your answer: ')
         if answer == str(missing_number):
             print('Correct!')
