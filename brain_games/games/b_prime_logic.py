@@ -22,7 +22,6 @@ def b_prime():
         if answer == real_answer:
             print('Correct!')
             ngin.counter += 1
-            num = randint(1, 100)
             div_counter = 0 
         else:
             print(
