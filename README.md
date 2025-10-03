@@ -12,3 +12,5 @@ https://asciinema.org/a/RU20yG13Q6wnc3rBlGPP4TvQp
 https://asciinema.org/a/rrCLAcJmNC8kIcPjqPBSguEzV\
 ### Наибольший общий делитель:
 https://asciinema.org/a/44jZUa9TwqOJqSyqLhI0N1oP1
+### Недостающее число в прогрессии:
+https://asciinema.org/a/Hl50vQhQ5F0z4MWGYqpnEpzcB
