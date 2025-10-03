@@ -24,6 +24,8 @@ def b_gcd():
             rem = a % b
             a = b
             b = rem
+        if b != 0:
+            gcd = a
         if answer == str(gcd):
             print('Correct!')
             a = randint(0, 20)
