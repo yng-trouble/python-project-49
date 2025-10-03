@@ -14,3 +14,5 @@ https://asciinema.org/a/rrCLAcJmNC8kIcPjqPBSguEzV\
 https://asciinema.org/a/44jZUa9TwqOJqSyqLhI0N1oP1
 ### Недостающее число в прогрессии:
 https://asciinema.org/a/Hl50vQhQ5F0z4MWGYqpnEpzcB
+### Проверка на простое число:
+https://asciinema.org/a/0gdNZKKlnR9q7bdx40HegVE81
