@@ -34,7 +34,7 @@ def b_progression():
             ngin.counter += 1
         else:
             print(
-                f"{answer} is wrong answer ;(." 
+                f"{answer} is wrong answer ;(. " 
                 f"Correct answer was {missing_number}.\n"
                 f"Let's try again, {ngin.name}!"
                 )

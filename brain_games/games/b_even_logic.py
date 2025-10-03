@@ -20,7 +20,7 @@ def b_even():
             ngin.counter += 1      
         else:
             print(
-                f"{answer} is wrong answer ;(." 
+                f"{answer} is wrong answer ;(. " 
                 f"Correct answer was {real_answer}.\n"
                 f"Let's try again, {ngin.name}!"
                 )

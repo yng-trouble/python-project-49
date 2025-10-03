@@ -25,7 +25,7 @@ def b_prime():
             div_counter = 0 
         else:
             print(
-                f"{answer} is wrong answer ;(." 
+                f"{answer} is wrong answer ;(. " 
                 f"Correct answer was {real_answer}.\n"
                 f"Let's try again, {ngin.name}!"
                 )

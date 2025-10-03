@@ -21,16 +21,17 @@ def b_gcd():
             a = b
             b = rem
             
-            if b == 0:
-                gcd = a
+        if b == 0:
+            gcd = a
         if answer == str(gcd):
-            print('Correct')
+            print('Correct!')
             a = randint(0, 20)
             b = randint(0, 20) 
+            numbers = [a, b]
             ngin.counter += 1
         else:
             print(
-                f"{answer} is wrong answer ;(." 
+                f"{answer} is wrong answer ;(. " 
                 f"Correct answer was {gcd}\n."
                 f"Let's try again, {ngin.name}!"
                 )

@@ -25,7 +25,7 @@ def b_calc():
             exp = eval(str(num1) + action + str(num2))
         else:
             print(
-                f"{answer} is wrong answer ;(." 
+                f"{answer} is wrong answer ;(. " 
                 f"Correct answer was {exp}.\n"
                 f"Let's try again, {engine.name}!"
                 )
