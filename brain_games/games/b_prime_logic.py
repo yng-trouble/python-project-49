@@ -1,8 +1,8 @@
 from random import randint
 
-import brain_games.engine as ngin
-
 import prompt
+
+import brain_games.engine as ngin
 
 
 def b_prime():
@@ -25,5 +25,9 @@ def b_prime():
             num = randint(1, 100)
             div_counter = 0 
         else:
-            print(f"{answer} is wrong answer ;(. Correct answer was {real_answer}. Let's try again, {ngin.name}")
+            print(
+                f"{answer} is wrong answer ;(." 
+                f"Correct answer was {real_answer}.\n"
+                f"Let's try again, {ngin.name}"
+                )
             quit()

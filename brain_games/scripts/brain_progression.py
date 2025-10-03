@@ -1,6 +1,5 @@
-from brain_games.engine import run
-
 import brain_games.games.b_progression_logic as prog
+from brain_games.engine import run
 
 
 def main():

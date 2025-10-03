@@ -1,8 +1,8 @@
 from random import randint
 
-import brain_games.engine as ngin
-
 import prompt
+
+import brain_games.engine as ngin
 
 
 def b_gcd():
@@ -13,7 +13,7 @@ def b_gcd():
     print('Find the greatest common divisor of given numbers.')
     while ngin.counter < 3:
         print(f'Question: {a} {b}')
-        answer = input('Your answer: ')
+        answer = prompt.string('Your answer: ')
         while b != 0:
             if max(numbers) % min(numbers) == 0:
                 gcd = min(numbers)
@@ -29,6 +29,10 @@ def b_gcd():
             b = randint(0, 20) 
             ngin.counter += 1
         else:
-            print(f"{answer} is wrong answer ;(. Correct answer was {gcd}. Let's try again, {ngin.name}")
+            print(
+                f"{answer} is wrong answer ;(." 
+                f"Correct answer was {gcd}\n."
+                f"Let's try again, {ngin.name}"
+                )
             quit()
 

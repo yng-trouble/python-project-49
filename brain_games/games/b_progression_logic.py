@@ -1,8 +1,8 @@
-from random import randint, choice
-
-import brain_games.engine as ngin
+from random import choice, randint
 
 import prompt
+
+import brain_games.engine as ngin
 
 
 def make_progression():
@@ -12,6 +12,7 @@ def make_progression():
     while len(a_progression) < length:
         a_progression.append(a_progression[-1] + step)
     return a_progression
+
 
 def b_progression():
     print('What number is missing in the progression?')
@@ -31,5 +32,9 @@ def b_progression():
             q_seq.insert(i, '..')
             ngin.counter += 1
         else:
-            print(f"{answer} is wrong answer ;(. Correct answer was {missing_number}. Let's try again, {ngin.name}")
+            print(
+                f"{answer} is wrong answer ;(." 
+                f"Correct answer was {missing_number}.\n"
+                f"Let's try again, {ngin.name}"
+                )
             quit()
