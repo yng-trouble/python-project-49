@@ -14,15 +14,16 @@ def b_gcd():
     while ngin.counter < 3:
         print(f'Question: {a} {b}')
         answer = prompt.string('Your answer: ')
+        if b == 0:
+            gcd = a
+        elif a == 0:
+            gcd = b
         while b != 0:
             if max(numbers) % min(numbers) == 0:
                 gcd = min(numbers)
             rem = a % b
             a = b
             b = rem
-            
-        if b == 0:
-            gcd = a
         if answer == str(gcd):
             print('Correct!')
             a = randint(0, 20)
